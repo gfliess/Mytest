@@ -26,8 +26,7 @@ public class ParserTest {
 		verify(calcMock).push(1);
 		verify(calcMock).push(2);
 		verify(calcMock).perform(Operation.add);
-		verifyNoMoreInteractions(calcMock);
-		
+		verifyNoMoreInteractions(calcMock);	
 	}
 
 	@Test
